@@ -145,9 +145,10 @@ Result:
 
 To evaluate the model on new, I used this unseen images:
 These are examples of new data images passed through the model. 
+![New Test 1 ](/data/model_files/result1.png)
+![New Test 2](//data/model_files/result2.png)
 
-![New Test Image Cancer 2](/data/test_images/test3.jpg)
-![New Test Image Tumor](/data/test_images/test5.jpg)
+
 
 By the way we can control the threshold value which services to get rid of lower score object detection namely bounding boxes. In data/test-images folder we can testify our model it is being evaluated by few test never seen before data 
 
@@ -163,6 +164,6 @@ This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) fo
 
 ## Contact
 
-Mr Murodil  - murodild@gmail.com
-LinkedIn - https://www.linkedin.com/in/mr-murodil
+Mr Murodil  - murodild@gmail.com <br>
+LinkedIn - https://www.linkedin.com/in/mr-murodil<br>
 Project Link: [https://github.com/cengineer13/Vehicle-detection-from-aeral-view-Faster-RCNN](https://github.com/cengineer13/Vehicle-detection-from-aeral-view-Faster-RCNN.git)
