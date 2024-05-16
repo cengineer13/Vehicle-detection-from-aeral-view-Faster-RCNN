@@ -98,21 +98,21 @@ The model's training and validation Precision, Recal and MIoU metrics:
 
   ### Average Precision (AP):
 
-AP@[IoU=0.50:0.95 | area=all | maxDets=100] = 0.205: This is the mean Average Precision (mAP) across IoU thresholds ranging from 0.50 to 0.95, calculated for all object sizes, considering up to 100 detections. An AP of 0.205 indicates the model's overall precision-recall performance.
-AP@[IoU=0.50 | area=all | maxDets=100] = 0.456: This is the precision at an IoU threshold of 0.50 for all object sizes. A value of 0.456 suggests that the model performs reasonably well at this IoU threshold.
-AP@[IoU=0.75 | area=all | maxDets=100] = 0.105: This is the precision at an IoU threshold of 0.75 for all object sizes, indicating stricter localization accuracy. A value of 0.105 shows the model struggles more with stricter localization.
-AP@[IoU=0.50:0.95 | area=small | maxDets=100] = 0.061: This is the mAP for small objects, indicating lower performance (0.061) on smaller objects.
-AP@[IoU=0.50:0.95 | area=medium | maxDets=100] = 0.409: This is the mAP for medium-sized objects, with a relatively higher value (0.409).
-AP@[IoU=0.50:0.95 | area=large | maxDets=100] = 0.450: This is the mAP for large objects, showing the best performance (0.450) among different object sizes.
+1. AP@[IoU=0.50:0.95 | area=all | maxDets=100] = 0.205: This is the mean Average Precision (mAP) across IoU thresholds ranging from 0.50 to 0.95, calculated for all object sizes, considering up to 100 detections. An AP of 0.205 indicates the model's overall precision-recall performance.
+2. AP@[IoU=0.50 | area=all | maxDets=100] = 0.456: This is the precision at an IoU threshold of 0.50 for all object sizes. A value of 0.456 suggests that the model performs reasonably well at this IoU threshold.
+3. AP@[IoU=0.75 | area=all | maxDets=100] = 0.105: This is the precision at an IoU threshold of 0.75 for all object sizes, indicating stricter localization accuracy. A value of 0.105 shows the model struggles more with stricter localization.
+4. AP@[IoU=0.50:0.95 | area=small | maxDets=100] = 0.061: This is the mAP for small objects, indicating lower performance (0.061) on smaller objects.
+5. AP@[IoU=0.50:0.95 | area=medium | maxDets=100] = 0.409: This is the mAP for medium-sized objects, with a relatively higher value (0.409).
+6. AP@[IoU=0.50:0.95 | area=large | maxDets=100] = 0.450: This is the mAP for large objects, showing the best performance (0.450) among different object sizes.
 
 ### Average Recall (AR):
 
-AR@[IoU=0.50:0.95 | area=all | maxDets=1] = 0.188: This is the average recall when only considering the top 1 detection per image.
-AR@[IoU=0.50:0.95 | area=all | maxDets=10] = 0.238: This is the average recall when considering the top 10 detections per image.
-AR@[IoU=0.50:0.95 | area=all | maxDets=100] = 0.335: This is the average recall when considering up to 100 detections per image.
-AR@[IoU=0.50:0.95 | area=small | maxDets=100] = 0.197: This is the average recall for small objects, showing the model's ability to detect smaller objects (0.197).
-AR@[IoU=0.50:0.95 | area=medium | maxDets=100] = 0.539: This is the average recall for medium-sized objects, indicating better performance (0.539).
-AR@[IoU=0.50:0.95 | area=large | maxDets=100] = 0.800: This is the average recall for large objects, showing the best recall performance (0.800) among different object sizes.
+1. AR@[IoU=0.50:0.95 | area=all | maxDets=1] = 0.188: This is the average recall when only considering the top 1 detection per image.
+2. AR@[IoU=0.50:0.95 | area=all | maxDets=10] = 0.238: This is the average recall when considering the top 10 detections per image.
+3. AR@[IoU=0.50:0.95 | area=all | maxDets=100] = 0.335: This is the average recall when considering up to 100 detections per image.
+4. AR@[IoU=0.50:0.95 | area=small | maxDets=100] = 0.197: This is the average recall for small objects, showing the model's ability to detect smaller objects (0.197).
+5. AR@[IoU=0.50:0.95 | area=medium | maxDets=100] = 0.539: This is the average recall for medium-sized objects, indicating better performance (0.539).
+6. AR@[IoU=0.50:0.95 | area=large | maxDets=100] = 0.800: This is the average recall for large objects, showing the best recall performance (0.800) among different object sizes.
 
 ## Inference
 
