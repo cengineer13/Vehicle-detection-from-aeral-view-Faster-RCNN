@@ -146,7 +146,7 @@ Result:
 To evaluate the model on new, I used this unseen images:
 These are examples of new data images passed through the model. 
 ![New Test 1 ](/data/model_files/result1.png)
-![New Test 2](//data/model_files/result2.png)
+![New Test 2](/data/model_files/result2.png)
 
 
 
